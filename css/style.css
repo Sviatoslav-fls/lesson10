@@ -576,6 +576,7 @@ a.return::before {
 .optionslabel2 {
 	font-size: 18px;
 	color: rgb(235, 210, 69);
+	cursor: pointer;
 }
 .optionsinput2 {
 	display: none;
@@ -623,8 +624,8 @@ a.return::before {
 	position: relative;
 	font-size: 16px;
 	border: 2px solid rgb(10, 83, 50);
+	cursor: pointer;
 }
-
 .file {
 	position: relative;
 	display: inline-block;
@@ -704,4 +705,16 @@ textarea:focus {
 .clarification span {
 	color: red;
 	font-size: 16px;
+}
+.button:hover {
+	/* font-size: 17px; */
+	background-color: rgb(7, 73, 18);
+	box-shadow: -4px 4px 5px rgb(235, 210, 69);
+	color: greenyellow;
+}
+.button:active {
+	box-shadow: none;
+}
+.button.reset:hover {
+	background-color: rgb(39, 46, 43);
 }
