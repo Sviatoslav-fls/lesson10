@@ -71,7 +71,7 @@
 								</div>
 								<div class="optionsitem">
 									<input id='female' type="radio" name="sex" data-value="" class="optionsinput" />
-									<label class='optionslabel' for="female">Женщина</label>
+									<label class='optionslabel labelfemale' for="female">Женщина</label>
 								</div>
 							</div>
 							<div class="checkbox">
@@ -85,6 +85,112 @@
 					<div class="bottomblock">
 						<span>У вас есть аккаунт?</span>
 						<a href="#enterblock" class="registration">Войти</a>
+					</div>
+				</div>
+			</div>
+			<div class="experiments">
+				<div class="login">
+					<div class="loginwrap">
+						<div class="formitem1">
+							<div class="logintitle">Log In</div>
+							<form action="#" class="form1">
+								<input autocomplete="off" type="text" name="form[]" data-value="" class="input1" placeholder="user name" />
+								<input autocomplete="off" type="text" name="form[]" data-value="" class="input1 inp1" placeholder="password" />
+								<button type="submit" class="formbtn1">Go</button>
+								<a href="" class="logintext">Forgot your password?</a>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="anketa">
+					<div class="wrapanketa">
+						<div class='container2'>
+							<div class="anketatitle">Анкета</div>
+							<form action="#" class="form2">
+								<div class="formitem2">
+									<label class="formlabel2" for="surname">Фамилия: <span>*</span> </label>
+									<input id="surname" name="form[]" value="" required placeholder="Введите Фамилию" class="input2" type="text">
+								</div>
+								<div class="formitem2">
+									<label class="formlabel2" for="name">Имя: <span>*</span> </label>
+									<input id="name" name="form[]" value="" required placeholder="Введите Имя" class="input2" type="text">
+								</div>
+								<div class="formitem2">
+									<label class="formlabel2" for="middlename">Отчество: </label>
+									<input id="middlename" name="form[]" value="" placeholder="Введите Отчество" class="input2" type="text">
+								</div>
+								<div class="formitem2">
+									<label class="formlabel2" for="birthday">Дата рождения: <span>*</span></label>
+									<input id="birthday" name="form[]" value="" required placeholder="Введите дату рождения (чч/мм/гггг):" class="input2" type="date">
+								</div>
+								<div class="formitem2">
+									<label class="formlabel2" for="email">E-mail: <span>*</span></label>
+									<input id="email" name="form[]" value="" required placeholder="Введите e-mail" class="input2" type="email">
+								</div>
+								<div class="formitem2">
+									<div class="citizenship">Укажите Ваше гражданство, в том числе гражданство других государств, если есть: <span>*</span></div>
+									<div class="checkbox2 cit">
+										<input id="Ukraine" name="form[]" value="1" class="checkboxitem2" type="checkbox">
+										<label class="checkboxlabel2" for="Ukraine">Украина</label>
+									</div>
+									<div class="checkbox2 cit">
+										<input id="Russia" name="form[]" value="" class="checkboxitem2" type="checkbox">
+										<label class="checkboxlabel2" for="Russia">Российская Федерация</label>
+									</div>
+									<div class="checkbox2 cit">
+										<input id="other" name="form[]" value="" class="checkboxitem2" type="checkbox">
+										<label class="checkboxlabel2" for="other">Другое:</label>
+										<input id="other2" name="form[]" value="" placeholder="Введите другое гражданство" class="input2 input2check" type="text">
+									</div>
+								</div>
+								<div class="formitem2">
+									<div class="formlabel2">Семейное положение: <span>*</span></div>
+									<div class="options2">
+										<div class="optionsitem2">
+											<input checked id="maried" name="status" value="maried" class="optionsinput2" type="radio">
+											<label class="optionslabel2" for="maried">Женат/замужем</label>
+										</div>
+										<div class="optionsitem2">
+											<input id="divorced" name="status" value="divorced" class="optionsinput2" type="radio">
+											<label class="optionslabel2" for="divorced">Разведен(а)</label>
+										</div>
+										<div class="optionsitem2">
+											<input id="widower" name="status" value="widower" class="optionsinput2" type="radio">
+											<label class="optionslabel2" for="widower">Вдовец/вдова</label>
+										</div>
+										<div class="optionsitem2">
+											<input id="single" name="status" value="single" class="optionsinput2" type="radio">
+											<label class="optionslabel2" for="single">Холост/не замужем</label>
+										</div>
+									</div>
+								</div>
+								<div class="formitem2">
+									<div class="color">Выберите цвет <span>*</span></div>
+									<select name="form[]" class="select">
+										<option value="3">Синий</option>
+										<option value="3">Зелёный</option>
+										<option value="2">Красный</option>
+										<option value="4">Жёлтый</option>
+									</select>
+								</div>
+								<div class="formitem2">
+									<div class="file">
+										<div class="filetitle">Добавить своё фото:</div>
+										<input class="fileinput" accept=".jpg, .jpeg, .png" type="file">
+										<div class="filelabel">Выбрать файл</div>
+									</div>
+								</div>
+								<div class="formitem2">
+									<label class="formlabel2" for="message">Другие сведения, которые Вы хотели бы сообщить о себе:</label>
+									<textarea class="textarea" id="message" name="message" placeholder="Введите сведения..."></textarea>
+								</div>
+								<div class="buttons">
+									<button type="submit" class="button">Отправить анкету</button>
+									<button type="reset" class="button reset">Очистить анкету</button>
+								</div>
+							</form>
+							<div class="clarification"><span>*</span> - поля, обязательные для заполнения</div>
+						</div>
 					</div>
 				</div>
 			</div>
