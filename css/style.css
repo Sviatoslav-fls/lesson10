@@ -95,6 +95,21 @@ textarea {
 	/* overflow: hidden; */
 	background: rgb(17, 20, 40);
 }
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	background-color: rgb(21, 8, 136);
+	padding: 10px;
+	font-size: 36px;
+	font-weight: 600;
+	text-align: center;
+	color: white;
+	z-index: 10;
+	margin: 0px 0px 100px 0px;
+	box-shadow: 0 2px 10px 2px rgb(121, 115, 115);
+	text-shadow: -2px 2px 5px rgb(27, 11, 87);
+}
 .container {
 	width: 1220px;
 	margin: 0px auto;
@@ -345,20 +360,8 @@ a.return::before {
 .bottomblock {
 }
 /* ---------------------------------------------------------------------------------------------------------------------- */
-.sticky {
-	position: -webkit-sticky;
-	position: sticky;
-	top: 0;
+.sticky.sticky2 {
 	background-color: rgb(218, 34, 34);
-	padding: 20px;
-	font-size: 40px;
-	font-weight: 600;
-	text-align: center;
-	color: white;
-	z-index: 10;
-	margin: 0px 0px 100px 0px;
-	box-shadow: 0 2px 10px 2px rgb(250, 248, 248);
-	text-shadow: -2px 2px 5px rgb(27, 11, 87);
 }
 /* ---------------------------------------------------------------------------------------------------------------------- */
 .experiments {
